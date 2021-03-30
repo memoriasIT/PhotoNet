@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card-wrapper">
+
+  <div class="card">
+
+    <h1 class="center">Entrada</h1>
+    <p class="center">Información sobre la entrada</p>
+
+    <p>
+      <strong>Nombre:</strong> {{ entrada.nombre }}<br>
+      <strong>Teléfono:</strong> {{ entrada.telefono }}<br>
+      <strong>E-mail:</strong> {{ entrada.email }}<br>
+      <strong>Localización:</strong> {{ entrada.localizacion }}
+      <strong>Imagen:</strong> <img src="{{ entrada.file }}" alt="">
+    </p>
+  
+  </div>
+</div>
+{% endblock %}

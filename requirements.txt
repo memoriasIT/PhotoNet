@@ -1,0 +1,27 @@
+certifi==2020.12.5
+cffi==1.14.4
+chardet==4.0.0
+click==7.1.2
+cryptography==3.3.1
+dnspython==2.1.0
+Flask==1.1.2
+Flask-Login==0.5.0
+Flask-OAuth @ git+https://github.com/mitsuhiko/flask-oauth@af6432621a9add5e55b0d7638e1380f66f3d4ed0
+Flask-SQLAlchemy==2.4.4
+gunicorn==20.0.4
+httplib2==0.18.1
+idna==2.10
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+oauth2==1.9.0.post1
+oauthlib==3.1.0
+passlib==1.7.4
+pycparser==2.20
+pymongo==3.11.2
+pyOpenSSL==20.0.1
+requests==2.25.1
+six==1.15.0
+SQLAlchemy==1.3.22
+urllib3==1.26.2
+Werkzeug==0.16.1
